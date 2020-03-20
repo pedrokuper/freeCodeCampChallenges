@@ -1,0 +1,50 @@
+body {
+    background-color: gainsboro;
+    padding: 0.5em;
+    color: black;
+    font-family: sans-serif;
+}
+
+h1, .subtitle{
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+.subtitle {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+#img-div {
+    background-color: ;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 1em;
+    display: block;
+}
+
+ul, h4 {
+    font-size: 1.35em;
+    width: 600px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+article {
+    text-align: left;
+    line-height: 2em;
+    
+}
+
+#tribute-info {
+    line-height: 3em;
+}
