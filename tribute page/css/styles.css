@@ -21,16 +21,17 @@ h1 {
 #img-div {
     background-color: ;
     text-align: center;
-    max-width: 100%;
-    max-width: 400px;
-    height: auto;
     margin: auto;
-    padding: 1em;
-    display: block;
-}
+    padding: 1em;    
+    }
 
-#image {
-    width: 100%;
+img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    
 }
 
 ul, h4 {
@@ -48,6 +49,8 @@ h3 {
 article {
     text-align: left;
     line-height: 2em;
+    width: auto;
+    max-width: 100%;
     
 }
 
