@@ -36,7 +36,7 @@ img {
 
 ul, h4 {
     font-size: 1.35em;
-    width: 600px;
+    max-width:600px;
     margin: auto;
     margin-top: 2em;
 }
@@ -47,10 +47,11 @@ h3 {
 }
 
 article {
-    text-align: left;
+    text-align: justify;
     line-height: 2em;
     width: auto;
-    max-width: 100%;
+    
+    display: block;
     
 }
 
