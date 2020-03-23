@@ -27,6 +27,7 @@ input {
     width: 100%;  
     border-radius: 5px;
     border: 2px solid darkblue;
+    padding: 10px;
 }
 
 select.select-role {
@@ -34,6 +35,7 @@ select.select-role {
     width: 100%;
     border-radius: 5px;
     border: 2px solid darkblue;
+    padding: 10px;
 }
 
 .radio-1 {
@@ -48,6 +50,7 @@ select.select-feature {
     width: 100%;
     border-radius: 5px;
     border: 2px solid darkblue;
+    padding: 10px;
 }
 
 .chek-tech {
@@ -84,7 +87,7 @@ p.fav-feature {
 
 .submit {
     display: block;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
