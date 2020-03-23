@@ -10,14 +10,14 @@
     </div>
     
 
-    <div>
+    <div class="form-body">
         <form action="" id="survey-form">
             <label class="name" id="name-label">Name
                 <input class="name" type="text" name="user-name" id="name" placeholder="Enter your name" pattern="[a-z]" required>
             </label>
     
             <label id="email-label">Email
-                <input type="email" name="user-email" id="email" pattern=".+@gmail.com" placeholder="Enter your email" required>
+                <input type="email" name="user-email" id="email"  placeholder="Enter your email" required>
             </label>
     
             <label id="number-label">Age
@@ -25,32 +25,36 @@
             </label>
     
             <label>Which option best describes your current role?
-                <select name="user-role">
-                    <option value="select-current-role" selected disabled>Select current role</option>
-                    <option value="student">Student</option>
-                    <option value="full-time-job">Full Time Job</option>
-                    <option value="full-time-learner">Full Time Learner</option>
-                    <option value="no-info">Prefer not to say</option>
-                    <option value="other">Other</option>
-                </select>
+                <div class="select-role">
+                    <select class="select-role" name="user-role">
+                        <option value="select-current-role" selected disabled>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-job">Full Time Job</option>
+                        <option value="full-time-learner">Full Time Learner</option>
+                        <option value="no-info">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
             </label>
     
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-    
-            <label>
-                <input type="radio" name="fcc-recomended" value="definitely">
-            Definitely
-            </label>
-    
-            <label>
-                <input type="radio" name="fcc-recomended" value="maybe">
+            <div class="radio-buttons">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+            
+                <label class="radio-label">
+                <input class="radio-1" type="radio" name="fcc-recomended" value="definitely">
+                Definitely
+                </label>
+                
+                <label class="radio-label">
+                <input class="radio-1" type="radio" name="fcc-recomended" value="maybe">
                 Maybe
-            </label>
-    
-            <label>
-                <input type="radio" name="fcc-recomended" value="not-sure">
+                </label>
+                
+                <label class="radio-label">
+                <input class="radio-1" type="radio" name="fcc-recomended" value="not-sure">
                 Not Sure
-            </label>
+                </label>
+        </div>
     
             <p>What is your favorite feature of freeCodeCamp?</p>
     
