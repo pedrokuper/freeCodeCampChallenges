@@ -1,3 +1,67 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 100vw;
+}
+.wrapper .hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.wrapper .hero .brand {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  padding: 10px;
+  flex-shrink: 0;
+}
+.wrapper .hero .brand .fas {
+  font-size: 2.2m;
+  margin: 0 10px;
+}
+.wrapper .hero .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.wrapper .hero .nav .nav-link {
+  text-align: center;
+  margin: 5px 30px;
+  color: black;
+  text-decoration: none;
+}
+.wrapper .content .subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .content .subscription .title {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.wrapper .content .subscription .form {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .content .subscription .form .email {
+  margin: 10px auto;
+  text-align: left;
+  padding: 5px 20px;
+}
+.wrapper .content .subscription .form .submit {
+  margin: 10px auto;
+  border: none;
+  background-color: #f65;
+  padding: 5px 20px;
+  width: 50%;
+}
 
 /*# sourceMappingURL=styles.css.map */
