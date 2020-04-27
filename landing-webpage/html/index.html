@@ -1,127 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="wrapper">
-        <section class="hero">
-            <div class="brand">
-                <i class="fas fa-microphone"></i>
-                <h1>Original Guitars</h1>
-            </div>
-            <nav class="nav">
-                <a href="#" class="nav-link">Features</a>
-                <a href="#" class="nav-link">How it works</a>
-                <a href="#" class="nav-link">Pricing</a>
-            </nav>
+      <header class="hero" id="header">
+        <div class="brand">
+          <img src="/img/guitarra.svg" id="header-img"></img>
+          <h1>Original Guitars</h1>
+        </div>
+        <nav class="nav" id="nav-bar">
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#how-it-works"class="nav-link">How it works</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="subscription">
+          <h2 class="title">Handcrafted, home-made masterpieces</h2>
+          <form action="" class="form" id="form">
+            <input
+              class="email"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Please, enter your email adress"
+              size="30"
+            />
+            <input
+              class="submit"
+              type="submit"
+              name="submit"
+              id="submit"
+              value="GET STARTED"
+            />
+          </form>
         </section>
-        <main class="content">
-            <section class="subscription">
-                <h2 class="title">Handcrafted, home-made masterpieces</h2>
-                <form action="" class="form">
-                    <input class="email" type="email" name="email" id="email"
-                        placeholder="Please, enter your email adress" size="30" />
-                    <input class="submit" type="submit" name="submit" id="submit" value="GET STARTED" />
-                </form>
-            </section>
-            <section class="features">
-                <div class="feature">
-                    <div class="icon">
-                        <i class="fas fa-fire"></i>
-                    </div>
-                    <div class="description">
-                        <h2 class="title">Premium Materials</h2>
-                        <p class="text">Our trombones use the shiniest brass which is sourced locally. This will
-                            increase
-                            the
-                            longevity of your purchase.</p>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="icon">
-                        <i class="fas fa-truck"></i>
-                    </div>
-                    <div class="description">
-                        <h2 class="title">Fast shipping</h2>
-                        <p class="text">We make sure you recieve your trombone as soon as we have finished making it. We
-                            also
-                            provide free returns if you are not satisfied.</p>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="icon">
-                        <i class="fas fa-battery-full"></i>
-                    </div>
-                    <div class="description">
-                        <h2 class="title">Quality Assurance</h2>
-                        <p class="text">For every purchase you make, we will ensure there are no damages or faults and
-                            we
-                            will
-                            check and test the pitch of your instrument.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </section>
-            <section class="pricing">
-                <div class="container">
-                    <div class="title">
-                        <h2></h2>
-                    </div>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="#" class="select">SELECT</a>
-                </div>
-                <div class="container">
-                    <div class="title">
-                        <h2></h2>
-                    </div>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="#" class="select">SELECT</a>
-                </div>
-                <div class="container">
-                    <div class="title">
-                        <h2></h2>
-                    </div>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="#" class="select">SELECT</a>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer-links">
-                <a href="#" class="link">Privacy</a>
-                <a href="#" class="link">Terms</a>
-                <a href="#" class="link">Contact</a>
+        <section class="features" id="features">
+          <div class="feature">
+            <div class="icon">
+              <i class="fas fa-fire"></i>
             </div>
-            <p>Copyright 2016. Original Trombones</p>
-        </footer>
+            <div class="description">
+              <h2 class="title">Premium Materials</h2>
+              <p class="text">
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <div class="description">
+              <h2 class="title">Fast shipping</h2>
+              <p class="text">
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">
+              <i class="fas fa-battery-full"></i>
+            </div>
+            <div class="description">
+              <h2 class="title">Quality Assurance</h2>
+              <p class="text">
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="video" id="how-it-works">
+          <iframe id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="pricing" id="pricing">
+          <div class="container">
+            <div class="title">
+              <h2>Title</h2>
+            </div>
+            <h3 class="price">$400</h3>
+            <div class="description">
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <a href="#" class="select">SELECT</a>
+            </div>
+          </div>
+          <div class="container">
+            <div class="title">
+              <h2>Title</h2>
+            </div>
+            <h3 class="price">$400</h3>
+            <div class="description">
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <a href="#" class="select">SELECT</a>
+            </div>
+          </div>
+          <div class="container">
+            <div class="title">
+              <h2>Title</h2>
+            </div>
+            <h3 class="price">$400</h3>
+            <div class="description">
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <a href="#" class="select">SELECT</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="#" class="link">Privacy</a>
+          <a href="#" class="link">Terms</a>
+          <a href="#" class="link">Contact</a>
+        </div>
+        <p class="copyright">Copyright 2016. Original Guitars</p>
+      </footer>
     </div>
-</body>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
